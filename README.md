@@ -2,4 +2,4 @@
 
 My personal guide for prepare for cram for placements.
 
-1. [Day 1: Introduction & Prerequistes](day1.md)
+1. [Day 1: Introduction & Prerequisites](day1.md)
