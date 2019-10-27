@@ -1,21 +1,24 @@
 #Subarray with given sum using sliding window
 def subarray(arr, n, s):
-    i = 0
-    j = 1
-    currsum = arr[i] + arr[j]
-    while(i != n-1 and j != n-1):
+    start = 0
+    end = 1
+    currsum = arr[start] + arr[end]
+    while(start != n and end != n):
         if s == currsum:
-            return i, j
-        while(s < currsum):
-            currsum = currsum - arr[i]
-            i = i + 1
-        j = j + 1
-        currsum = currsum + arr[j]
+            return start, end
+        elif(s > currsum):
+            end = end + 1
+            if(end == n):
+                continue
+            currsum = currsum + arr[end]
+        # keep subtracting until currsum is less than desired sum
+        elif(s < currsum):
+            currsum = currsum - arr[start]
+            start = start + 1
     return -1, -1
 
-
-t = int(input())
-for i in range(t):
+testcase = int(input())
+for i in range(testcase):
     n, s = input().split()
     n = int(n)
     s = int(s)
