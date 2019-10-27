@@ -7,7 +7,7 @@ The following programs are my personal implementation of the solution. The origi
 
 ## Arrays
 
-1.	Subarray with given sum
+1.	Subarray with given sum [Ans](arrays/subarray_with_given_sum.md)
 2.	Count the triplets
 3.	Kadane’s Algorithm
 4.	Missing number in array
