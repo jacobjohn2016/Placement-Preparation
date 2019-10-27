@@ -7,7 +7,7 @@ Add the elements, to currsum till it is less than S. If it becomes more than S, 
 If yes, then output start and end index, else after traversing array no such solution is found, output -1.
 
 
-``` python
+``` Python
 #Subarray with given sum using sliding window
 def subarray(arr, n, s):
     start = 0
