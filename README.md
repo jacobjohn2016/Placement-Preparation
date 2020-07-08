@@ -3,11 +3,12 @@
 My personal guide for prepare for cram for placements. A program a day makes the jobs stay!
 
 ## Note
+
 The following programs are my personal implementation of the solution. The original sources can be found on [GeeksForGeeks](https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/). 
 
 ## Arrays
 
-1.	Subarray with given sum [Ans](arrays/subarray_with_given_sum.md)
+1.	Subarray with given sum [Ans](arrays/1-subarray_with_given_sum.md)
 2.	Count the triplets
 3.	Kadane’s Algorithm
 4.	Missing number in array
@@ -15,7 +16,7 @@ The following programs are my personal implementation of the solution. The origi
 6.	Rearrange array alternatively
 7.	Number of pairs
 8.	Inversion of Array
-9.	Sort an array of 0s, 1s and 2s
+9.	Sort an array of 0s, 1s and 2s [Ans](arrays/9-)
 10.	Equilibrium point
 11.	Leaders in an array
 12.	Minimum Platforms
